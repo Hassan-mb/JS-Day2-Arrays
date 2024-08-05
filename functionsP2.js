@@ -28,7 +28,12 @@ console.log(sOrD);
 //task 2
 function oddSmallerThan(number) {
   if (number % 2 !== 0) {
+    let oddNumbers = number - 1;
+    let finalOddNumber = oddNumbers / 2;
+    return finalOddNumber;
   } else {
     console.log("enter an odd number please");
   }
 }
+let oddValue = oddSmallerThan(number);
+console.log(oddValue);
